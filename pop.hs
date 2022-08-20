@@ -1,10 +1,10 @@
 module Test where
 
-division :: Int -> Int -> Int
-division x y = x `div` y
+doble :: Int -> Int
+doble n = 2 * n
 
-cuadrado :: Int -> Int
-cuadrado x = x * x
+cuad :: Int -> Int
+cuad n = doble(doble n)
 
-suma :: Int -> Int -> Int
-suma x y = x + y
+cuad' :: Int -> Int
+cuad' n = 4 * n
